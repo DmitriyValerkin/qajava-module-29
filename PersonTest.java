@@ -10,5 +10,5 @@ public class PersonTest {
         assertTrue(Person.isTeenager(19));
         assertFalse(Person.isTeenager(12));
         assertFalse(Person.isTeenager(20));
+        }
     }
-}
