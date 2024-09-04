@@ -2,6 +2,6 @@
         assertTrue(Person.isTeenager(13)) - java.lang.AssertionError at PersonTest.testIsTeenager(PersonTest.java:8)
         assertTrue(Person.isTeenager(14)) - java.lang.AssertionError at PersonTest.testIsTeenager(PersonTest.java:9)
         assertTrue(Person.isTeenager(19)) - java.lang.AssertionError at PersonTest.testIsTeenager(PersonTest.java:10)
-
+        assertTrue(Person.isTeenager(12)) - java.lang.AssertionError at PersonTest.testIsTeenager(PersonTest.java:11)
 
 Условие isTeenager (age >= 13 && age <= 19) будет более точным и позволит нам корректно определить, является ли человек подростком с возрастом от 13 до 19 лет включительно.
